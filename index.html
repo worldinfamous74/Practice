@@ -6,37 +6,49 @@
     <title>Document</title>
 </head>
 <style>
-    #container-wrapper{
-        color: red;
-        font-size: 36px;
-    }
 </style>
 <body>
-    <span id="container-wrapper">
-        You can style 
-        me using my id value which is container-wrapper
-    </span>
-    <div>
-        <label>Padding <input type="range" id="padding" min="40" max="100" value="40"></label>
-        <label>Border <input type="range" id="border" min="40" max="100" value="40"></label>
-        <label>Margin <input type="range" id="margin" min="0" max="100" value="40"></label>
-      </div>
+   <div class="profile.">
+        <header class="profile__header">
+            <div class="profile__highlight__wrapper">
+                <div class="profile__highlight"><!--Icon-->1760</div>students
+            </div>
 
-      <div class="grid">
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea necessitatibus nobis minima ipsam. Pariatur sit ea cum officiis, illo totam fuga consequatur debitis, aut aspernatur possimus quo dignissimos quasi reiciendis.</div>
-       <div>Quis vero doloribus facere dolorem illum voluptates dolores praesentium ut ipsam cumque libero officiis adipisci nostrum deleniti, excepturi obcaecati culpa architecto deserunt, saepe voluptate eum asperiores similique. Culpa, officiis possimus?</div>
-       <div>Rem nulla rerum quo eaque neque similique sunt sint esse asperiores cupiditate, tenetur eum sed, laboriosam adipisci molestias blanditiis aliquam eius laudantium saepe autem quidem. Dignissimos quod nobis animi rerum?</div>
-       <div>Placeat enim ratione repellendus optio et excepturi blanditiis ipsa saepe inventore in debitis, ipsam praesentium dolores ab omnis veniam, dicta vero accusamus corrupti obcaecati molestias. Aut explicabo at exercitationem quo.</div>
-       <div class="box-model" id="demo">
+            <div class="profile_avatar">
+                <!--THERE SHOULD BE AN IMAGE HERE-->
+            </div>
 
-        Content
+            <!--Another highlight-->
+        </header>
 
-    <span id="p">Padding</span>
-    <span id="b">Border</span>
-    <span id="m">Margin</span>
-  </div>
-  <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea necessitatibus nobis minima ipsam. Pariatur sit ea cum officiis, illo totam fuga consequatur debitis, aut aspernatur possimus quo dignissimos quasi reiciendis.</div>     <div>Quis vero doloribus facere dolorem illum voluptates dolores praesentium ut ipsam cumque libero officiis adipisci nostrum deleniti, excepturi obcaecati culpa architecto deserunt, saepe voluptate eum asperiores similique. Culpa, officiis possimus?</div>
-  <div>Rem nulla rerum quo eaque neque similique sunt sint esse asperiores cupiditate, tenetur eum sed, laboriosam adipisci molestias blanditiis aliquam eius laudantium saepe autem quidem. Dignissimos quod nobis animi rerum?</div>      <div>Placeat enim ratione repellendus optio et excepturi blanditiis ipsa saepe inventore in debitis, ipsam praesentium dolores ab omnis veniam, dicta vero accusamus corrupti obcaecati molestias. Aut explicabo at exercitationem quo.</div>
-</div>
+        <div class="profile__name">
+            <h2>Samuel Adah<!--THERE SHOULD BE AN IMAGE HERE--></h2>
+            <p>Cloud/Devops Engineer</p>
+        </div>
+        <ul class="social-links">
+            <li><a href="#"><!--AN SVG--></a></li>
+            <!--More list Items-->
+        </ul>
+        <main>
+            <div class="tabs-wrapper">
+                <ul class="tabs">
+                    <li class="active">
+                        <a id="tab1" href="#about">About Me</a>
+                    </li>
+
+                    <!--More Tabs-->
+                    <li id="active-bg"></li>
+                </ul>
+            </div>
+            <div id="tab1-content" class="tab-content tab-content--active">
+                <!--tab content here-->
+            </div>
+
+            <!--more tab contents-->
+        </main>
+
+        <a href="#" class="btn btn--primary">Book Monitoring</a>
+    </div>
+    <script src="script.js"></script>
     </body>
 </html>
